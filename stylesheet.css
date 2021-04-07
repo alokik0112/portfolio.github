@@ -16,9 +16,9 @@
   min-height: 400px;
 }
 
-.bg-image2 {
+.bg-image2 img{
   position: relative;
-  background-image: url("https://tse2.mm.bing.net/th?id=OIP.jasOXQyZVKl0xyH4gYXbtQHaEK&pid=Api&P=0&w=304&h=172");
+ 
   
   background-position: center;
   background-repeat: no-repeat;
