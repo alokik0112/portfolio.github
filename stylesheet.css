@@ -96,7 +96,13 @@ padding-bottom:80px;
   clear: both;
   display: table;
 }
-
+/* message me starts    */
+.container1 {
+border-radius: 5px;
+background-color:rgb(138, 141, 142);
+padding: 20px;
+}
+/* message me ends */
 
     @media only screen and (max-device-width:1024px) {
       .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4,.bgimg-5, .bgimg-6, .bgimg-7{
