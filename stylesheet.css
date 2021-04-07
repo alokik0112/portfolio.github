@@ -95,6 +95,47 @@ header {
   a {
     text-decoration: none;
   }
+/* skill bars */
+/* Make sure that padding behaves as expected */
+
+
+/* Container for skill bars */
+.container2 {
+width: 100%; /* Full width */
+background-color: #ddd; /* Grey background */
+}
+
+.skills {
+text-align: right; /* Right-align text */
+padding-top: 10px; /* Add top padding */
+padding-bottom: 10px; /* Add bottom padding */
+color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 60%; background-color: #2196F3;} /* Blue */
+.jv {width: 60%; background-color: #f44336;} /* Red */
+.myC {width: 50%; background-color: #f9c006;} /* Yellow */
+
+/* side by side img */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columnimg {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+.columnimg1{
+float:right;
+padding-left:55px;
+padding-bottom:80px;
+}
+/* Clear floats after image containers */
+.rowimg::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* responsive menu bar */
 @media all and (max-width: 1000px) {
