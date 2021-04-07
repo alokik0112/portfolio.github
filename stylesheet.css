@@ -16,14 +16,21 @@
   min-height: 400px;
 }
 
-img{
-  position: relative;
- 
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;}
+.bgimg-2{
+  position:relative;
+  opacity:0.65;
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  }
+
+.bgimg-2{
+  background-image:url("https://tse2.mm.bing.net/th?id=OIP.jasOXQyZVKl0xyH4gYXbtQHaEK&pid=Api&P=0&w=304&h=172");
+  min-height:400px;
+  }
+
+
   div {
     display: block;
 }
