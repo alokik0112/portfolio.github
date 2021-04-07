@@ -5,11 +5,21 @@
 }
 
 
-
+/* background imgs */
 .bg-image1 {
   position: relative;
   background-image: url("https://tse3.mm.bing.net/th?id=OIP.svMCo7NJhukrM92xpu7bBgHaE8&pid=Api&P=0&w=255&h=171");
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.bg-image2 {
+  position: relative;
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.jasOXQyZVKl0xyH4gYXbtQHaEK&pid=Api&P=0&w=304&h=172");
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -290,3 +300,5 @@ title1::after{
         font-size: 19px;
     }
 }
+
+
