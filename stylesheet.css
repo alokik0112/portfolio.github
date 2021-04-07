@@ -102,6 +102,27 @@ border-radius: 5px;
 background-color:rgb(138, 141, 142);
 padding: 20px;
 }
+/* Floating column for labels: 25% width */
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
 /* message me ends */
 
     @media only screen and (max-device-width:1024px) {
