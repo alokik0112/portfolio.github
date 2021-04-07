@@ -1,0 +1,25 @@
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+.bg-image1 {
+  position: relative;
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.svMCo7NJhukrM92xpu7bBgHaE8&pid=Api&P=0&w=255&h=171");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;}
+  div {
+    display: block;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: rgb(236, 16, 16);
+}
