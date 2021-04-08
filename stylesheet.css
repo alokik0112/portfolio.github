@@ -583,12 +583,12 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: #4D163D;
+	stroke: #0e7243;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #840037;
+	stroke: #10b934;
 	animation-delay: -2s;
 }
 
