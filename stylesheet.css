@@ -35,14 +35,17 @@
     min-height:400px;
     }
 
+    .bgimg-4{
+      background-image:url("https://th.bing.com/th/id/Rb5546cebf722b6c38a8ac866ba75b1c8?rik=8zNep7AXbwHXow&riu=http%3a%2f%2fwww.sweetmintstudios.com%2fwp-content%2fuploads%2f2011%2f06%2fBurlap-Banner-MY-PROJECTS1.jpg&ehk=YEgN98ml%2br3kKxnZz30P6AXIb0BpU4%2bThv6ofN6sqbs%3d&risl=&pid=ImgRaw");
+      min-height:350px;
+      }
+
     .bgimg-5{
       background-image:url("https://tse2.mm.bing.net/th?id=OIP.BNesWrnfzyAG6RABRqWllgHaCc&pid=Api&P=0&w=544&h=180");
       min-height:150px;
       position:relative;
- 
-  
-  background-position:center;
-  background-repeat:no-repeat;
+      background-position:center;
+      background-repeat:no-repeat;
   
       }
 
@@ -522,3 +525,35 @@ title1::after{
       margin-top: 0;
     }
   }
+
+  /*project*/
+.container3 {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container3 .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+/* responsive prject */
+@media screen and (min-width: 601px) {
+  .content {
+    font-size: 10px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 8px;
+   
+  }
+}
