@@ -593,17 +593,17 @@ svg {
 }
 
 .text-copy:nth-child(3){
-	stroke: #BD0034;
+	stroke: #ffffff;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #BD0034;
+	stroke: #ffffff;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #FDB731;
+	stroke: #c98406;
 	animation-delay: -5s;
 }
 
