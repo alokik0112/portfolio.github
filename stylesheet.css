@@ -16,7 +16,7 @@
   min-height: 400px;
 }
 
-.bgimg-2, .bgimg-3{
+.bgimg-2, .bgimg-3, .bgimg-4,  .bgimg-6{
   position:relative;
   background-attachment:fixed;
   
@@ -34,6 +34,24 @@
     background-image:url("https://github.com/alokik0112/sad/blob/main/IMG_20210407_164207-01%5B1%5D.jpeg?raw=true");
     min-height:400px;
     }
+
+    .bgimg-5{
+      background-image:url("https://tse2.mm.bing.net/th?id=OIP.BNesWrnfzyAG6RABRqWllgHaCc&pid=Api&P=0&w=544&h=180");
+      min-height:150px;
+      position:relative;
+ 
+  
+  background-position:center;
+  background-repeat:no-repeat;
+  
+      }
+
+      .bgimg-6{
+        background-image:url("https://tse2.mm.bing.net/th?id=OIP.gm5kGVSHFhk9pmiNd_ukbgHaDn&pid=Api&P=0&w=338&h=165");
+        min-height:400px;
+        }
+
+
   .caption{
     position:absolute;
     left:0;
@@ -439,3 +457,68 @@ title1::after{
   padding-bottom:20px;
   padding-top:200px;
 }
+
+/* contact section */
+  /* Style inputs, select elements and textareas */
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color:aquamarine;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container1 {
+    border-radius: 5px;
+    background-color:rgb(138, 141, 142);
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
